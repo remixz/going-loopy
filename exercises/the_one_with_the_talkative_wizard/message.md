@@ -1,0 +1,1 @@
+Hooray! Huzzah! I'm so glad you have decided to embark on this quest. Let's not slow down this brisk pace, though. Run `going-loopy` to begin our quest.

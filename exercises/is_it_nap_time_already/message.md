@@ -1,0 +1,5 @@
+There we go! Let's go through that code again. We see "Treading slowly..." first, as it was the first in the call stack, and therefore first to be grabbed by the event loop. Then, nothing happens for 3 seconds, which is the `sleep` function occupying the thread for 3 seconds. After that function has returned, we see "Whew, that was slow.", as it the next function in the call stack, and the last.
+
+Not so bad, huh? You now understand a vital concept in the event loop: the call stack! The event loop goes to the call stack, takes the first function, and gives that to the JavaScript engine. Then, when that function has returned, the event loop does the process again: it goes to the call stack, takes the first function, and gives that to the JavaScript engine. It continues to do this until there's nothing left in the call stack.
+
+But, what if we want to delay the running of something, but not hold back the whole program? Well, as you may already know, we can, with `setTimeout`. Join me in our next chapter, and I shall explain. Run `going-loopy` to continue.
