@@ -2,20 +2,11 @@
 
 A quest to tame the beast that is the JavaScript event loop.
 
+![intro image](https://s3.amazonaws.com/f.cl.ly/items/0n2F3b2Y0o0U0q183u2U/gloopy3.png)
+
 ![screenshot](https://s3.amazonaws.com/f.cl.ly/items/041K0W3p0D0S302K0q1H/Image%202015-08-02%20at%2012.15.33%20AM.png)
 
 ## Installation
-
-*WIP! Not released on npm yet. To install for now:*
-
-```
-git clone https://github.com/remixz/going-loopy.git
-cd going-loopy
-npm install
-npm link
-```
-
----
 
 ```
 npm install going-loopy --global
