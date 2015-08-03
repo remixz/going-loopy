@@ -11,6 +11,8 @@ console.log('Treading slowly...')
 // it does not block the event loop, which means that any functions after it would run
 // as soon as possible.
 setTimeout(function () {
+  // When the timer has completed, the function below will be added to the call stack.
+  // It will be run immediately, since it will be the only item on the call stack.
   console.log('Whew, that was slow.')
 }, 3000)
 
