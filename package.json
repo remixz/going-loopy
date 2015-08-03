@@ -1,7 +1,7 @@
 {
   "name": "going-loopy",
   "description": "A quest to tame the beast that is the JavaScript event loop.",
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "author": "Zach Bruggeman <mail@bruggie.com> (https://github.com/remixz)",
   "bin": {
     "going-loopy": "./going-loopy.js"
